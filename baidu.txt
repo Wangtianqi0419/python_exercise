@@ -1,8 +1,24 @@
-text
+
 my world
 make love
 修复bug
 商城development 100%
+git command :
+git init
+git status
+git add .
+git commit -m "文件描述"
 
+
+
+查看分支： git branch
+创建分支： git branch 分支名称
+	删除分支：git branch -d 分支名称
+切换分支： git checkout 分支名称
+分支合并： git merge 要合并得分支
+	注意点：切换分支在合并，注意合并得所属关系，例如 B合并到A分支下，那么首先得切换至A分支后，执行git merge B
+	合并过程中可能会产生冲突： 基础办法是手动进行修改
+工作流概念：
+	
 
 

@@ -34,5 +34,31 @@ git commit -m "文件描述"
 	git checkout 分支名称
 	
 
+	在公司进行开发
+	1 切换至dev 分支进行开发
+	git checkout dev
+	2 把master分支合并到dev（更新最新得代码,只执行一次）
+	git merge mater
+	3 修改代码
+	4 提交代码
+		git add .
+		git commit -m "xxx"
+		git push origin dev
+		
+	回到家中继续写代码
+		1 切换到dev分支进行开发
+		git checkout dev
+		2 拉代码
+		git pull origin dev
+		3 继续开发
+		4 提交代码
+		git add .
+                git commit -m "xxx"
+                git push origin dev
+
+	开发完毕，上线操作。
+		1.
+
+
 
 
